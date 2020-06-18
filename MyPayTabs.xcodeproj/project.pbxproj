@@ -3,27 +3,51 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A7DA1E0C3D2FEE03A126E5C /* Pods_MyPayTabs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C1297A66A7665D68BC82CB8 /* Pods_MyPayTabs.framework */; };
 		C2F9EB60249AA1B2008EF354 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F9EB5F249AA1B2008EF354 /* AppDelegate.swift */; };
-		C2F9EB62249AA1B2008EF354 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F9EB61249AA1B2008EF354 /* SceneDelegate.swift */; };
-		C2F9EB64249AA1B2008EF354 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F9EB63249AA1B2008EF354 /* ViewController.swift */; };
-		C2F9EB67249AA1B2008EF354 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2F9EB65249AA1B2008EF354 /* Main.storyboard */; };
+		C2F9EB64249AA1B2008EF354 /* CheckoutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F9EB63249AA1B2008EF354 /* CheckoutVC.swift */; };
+		C2F9EB67249AA1B2008EF354 /* CheckoutVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2F9EB65249AA1B2008EF354 /* CheckoutVC.storyboard */; };
 		C2F9EB69249AA1B3008EF354 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2F9EB68249AA1B3008EF354 /* Assets.xcassets */; };
 		C2F9EB6C249AA1B3008EF354 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2F9EB6A249AA1B3008EF354 /* LaunchScreen.storyboard */; };
+		C2F9EB74249AA295008EF354 /* paytabs-iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F9EB73249AA295008EF354 /* paytabs-iOS.framework */; };
+		C2F9EB76249AA2DE008EF354 /* Resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C2F9EB75249AA2DE008EF354 /* Resources.bundle */; };
+		C2F9EB7F249AEC75008EF354 /* CheckoutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F9EB7E249AEC75008EF354 /* CheckoutViewModel.swift */; };
+		C2F9EB82249AED4E008EF354 /* CheckoutParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F9EB81249AED4E008EF354 /* CheckoutParameters.swift */; };
+		C2F9EB85249AF128008EF354 /* StoryboardInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F9EB84249AF128008EF354 /* StoryboardInitializer.swift */; };
+		C2F9EB87249AF156008EF354 /* Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F9EB86249AF156008EF354 /* Identifiable.swift */; };
+		C2F9EB89249AF4C2008EF354 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F9EB88249AF4C2008EF354 /* Router.swift */; };
+		C2F9EB8B249AF863008EF354 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F9EB8A249AF863008EF354 /* Validator.swift */; };
+		C2F9EB8D249B043A008EF354 /* Alert Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F9EB8C249B043A008EF354 /* Alert Extension.swift */; };
+		C2F9EB90249B0978008EF354 /* SuccessVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F9EB8F249B0978008EF354 /* SuccessVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4199FFB9EEBD1BA7321AF2FB /* Pods-MyPayTabs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPayTabs.release.xcconfig"; path = "Target Support Files/Pods-MyPayTabs/Pods-MyPayTabs.release.xcconfig"; sourceTree = "<group>"; };
+		8C1297A66A7665D68BC82CB8 /* Pods_MyPayTabs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyPayTabs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2F9EB5C249AA1B2008EF354 /* MyPayTabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPayTabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2F9EB5F249AA1B2008EF354 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C2F9EB61249AA1B2008EF354 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C2F9EB63249AA1B2008EF354 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C2F9EB66249AA1B2008EF354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2F9EB63249AA1B2008EF354 /* CheckoutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutVC.swift; sourceTree = "<group>"; };
+		C2F9EB66249AA1B2008EF354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/CheckoutVC.storyboard; sourceTree = "<group>"; };
 		C2F9EB68249AA1B3008EF354 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2F9EB6B249AA1B3008EF354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2F9EB6D249AA1B3008EF354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2F9EB73249AA295008EF354 /* paytabs-iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "paytabs-iOS.framework"; sourceTree = "<group>"; };
+		C2F9EB75249AA2DE008EF354 /* Resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Resources.bundle; sourceTree = "<group>"; };
+		C2F9EB77249AA4C4008EF354 /* MyPayTabs-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyPayTabs-Bridging-Header.h"; sourceTree = "<group>"; };
+		C2F9EB7A249AB40E008EF354 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2F9EB7E249AEC75008EF354 /* CheckoutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutViewModel.swift; sourceTree = "<group>"; };
+		C2F9EB81249AED4E008EF354 /* CheckoutParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutParameters.swift; sourceTree = "<group>"; };
+		C2F9EB84249AF128008EF354 /* StoryboardInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardInitializer.swift; sourceTree = "<group>"; };
+		C2F9EB86249AF156008EF354 /* Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Identifiable.swift; sourceTree = "<group>"; };
+		C2F9EB88249AF4C2008EF354 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		C2F9EB8A249AF863008EF354 /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		C2F9EB8C249B043A008EF354 /* Alert Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alert Extension.swift"; sourceTree = "<group>"; };
+		C2F9EB8F249B0978008EF354 /* SuccessVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessVC.swift; sourceTree = "<group>"; };
+		C7E27FDFC1C104FD74ECDB8F /* Pods-MyPayTabs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPayTabs.debug.xcconfig"; path = "Target Support Files/Pods-MyPayTabs/Pods-MyPayTabs.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A7DA1E0C3D2FEE03A126E5C /* Pods_MyPayTabs.framework in Frameworks */,
+				C2F9EB74249AA295008EF354 /* paytabs-iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3372C3F9B00DDE33E79BE132 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2F9EB7A249AB40E008EF354 /* AFNetworking.framework */,
+				C2F9EB75249AA2DE008EF354 /* Resources.bundle */,
+				C2F9EB73249AA295008EF354 /* paytabs-iOS.framework */,
+				8C1297A66A7665D68BC82CB8 /* Pods_MyPayTabs.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC4B2905B3E71AFBCD0A554A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7E27FDFC1C104FD74ECDB8F /* Pods-MyPayTabs.debug.xcconfig */,
+				4199FFB9EEBD1BA7321AF2FB /* Pods-MyPayTabs.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C2F9EB53249AA1B2008EF354 = {
 			isa = PBXGroup;
 			children = (
 				C2F9EB5E249AA1B2008EF354 /* MyPayTabs */,
 				C2F9EB5D249AA1B2008EF354 /* Products */,
+				AC4B2905B3E71AFBCD0A554A /* Pods */,
+				3372C3F9B00DDE33E79BE132 /* Frameworks */,
+				C2F9EB77249AA4C4008EF354 /* MyPayTabs-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +106,61 @@
 			isa = PBXGroup;
 			children = (
 				C2F9EB5F249AA1B2008EF354 /* AppDelegate.swift */,
-				C2F9EB61249AA1B2008EF354 /* SceneDelegate.swift */,
-				C2F9EB63249AA1B2008EF354 /* ViewController.swift */,
-				C2F9EB65249AA1B2008EF354 /* Main.storyboard */,
+				C2F9EB88249AF4C2008EF354 /* Router.swift */,
+				C2F9EB7C249AC71A008EF354 /* Scenes */,
+				C2F9EB80249AED2C008EF354 /* Models */,
+				C2F9EB83249AF072008EF354 /* Helpers */,
 				C2F9EB68249AA1B3008EF354 /* Assets.xcassets */,
 				C2F9EB6A249AA1B3008EF354 /* LaunchScreen.storyboard */,
 				C2F9EB6D249AA1B3008EF354 /* Info.plist */,
 			);
 			path = MyPayTabs;
+			sourceTree = "<group>";
+		};
+		C2F9EB7C249AC71A008EF354 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				C2F9EB7D249AC721008EF354 /* Checkout */,
+				C2F9EB8E249B095E008EF354 /* Success */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		C2F9EB7D249AC721008EF354 /* Checkout */ = {
+			isa = PBXGroup;
+			children = (
+				C2F9EB63249AA1B2008EF354 /* CheckoutVC.swift */,
+				C2F9EB7E249AEC75008EF354 /* CheckoutViewModel.swift */,
+				C2F9EB65249AA1B2008EF354 /* CheckoutVC.storyboard */,
+			);
+			path = Checkout;
+			sourceTree = "<group>";
+		};
+		C2F9EB80249AED2C008EF354 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C2F9EB81249AED4E008EF354 /* CheckoutParameters.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C2F9EB83249AF072008EF354 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C2F9EB84249AF128008EF354 /* StoryboardInitializer.swift */,
+				C2F9EB86249AF156008EF354 /* Identifiable.swift */,
+				C2F9EB8A249AF863008EF354 /* Validator.swift */,
+				C2F9EB8C249B043A008EF354 /* Alert Extension.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		C2F9EB8E249B095E008EF354 /* Success */ = {
+			isa = PBXGroup;
+			children = (
+				C2F9EB8F249B0978008EF354 /* SuccessVC.swift */,
+			);
+			path = Success;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +170,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C2F9EB70249AA1B3008EF354 /* Build configuration list for PBXNativeTarget "MyPayTabs" */;
 			buildPhases = (
+				0B929905686E1427C6BA97D3 /* [CP] Check Pods Manifest.lock */,
 				C2F9EB58249AA1B2008EF354 /* Sources */,
 				C2F9EB59249AA1B2008EF354 /* Frameworks */,
 				C2F9EB5A249AA1B2008EF354 /* Resources */,
+				94D5B0398B4D9563CA2D1BC6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -99,6 +197,7 @@
 				TargetAttributes = {
 					C2F9EB5B249AA1B2008EF354 = {
 						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
 					};
 				};
 			};
@@ -127,32 +226,82 @@
 			files = (
 				C2F9EB6C249AA1B3008EF354 /* LaunchScreen.storyboard in Resources */,
 				C2F9EB69249AA1B3008EF354 /* Assets.xcassets in Resources */,
-				C2F9EB67249AA1B2008EF354 /* Main.storyboard in Resources */,
+				C2F9EB67249AA1B2008EF354 /* CheckoutVC.storyboard in Resources */,
+				C2F9EB76249AA2DE008EF354 /* Resources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B929905686E1427C6BA97D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyPayTabs-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94D5B0398B4D9563CA2D1BC6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyPayTabs/Pods-MyPayTabs-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyPayTabs/Pods-MyPayTabs-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyPayTabs/Pods-MyPayTabs-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C2F9EB58249AA1B2008EF354 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2F9EB64249AA1B2008EF354 /* ViewController.swift in Sources */,
+				C2F9EB90249B0978008EF354 /* SuccessVC.swift in Sources */,
+				C2F9EB8B249AF863008EF354 /* Validator.swift in Sources */,
+				C2F9EB7F249AEC75008EF354 /* CheckoutViewModel.swift in Sources */,
+				C2F9EB8D249B043A008EF354 /* Alert Extension.swift in Sources */,
+				C2F9EB87249AF156008EF354 /* Identifiable.swift in Sources */,
+				C2F9EB85249AF128008EF354 /* StoryboardInitializer.swift in Sources */,
+				C2F9EB82249AED4E008EF354 /* CheckoutParameters.swift in Sources */,
+				C2F9EB89249AF4C2008EF354 /* Router.swift in Sources */,
+				C2F9EB64249AA1B2008EF354 /* CheckoutVC.swift in Sources */,
 				C2F9EB60249AA1B2008EF354 /* AppDelegate.swift in Sources */,
-				C2F9EB62249AA1B2008EF354 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C2F9EB65249AA1B2008EF354 /* Main.storyboard */ = {
+		C2F9EB65249AA1B2008EF354 /* CheckoutVC.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				C2F9EB66249AA1B2008EF354 /* Base */,
 			);
-			name = Main.storyboard;
+			name = CheckoutVC.storyboard;
 			sourceTree = "<group>";
 		};
 		C2F9EB6A249AA1B3008EF354 /* LaunchScreen.storyboard */ = {
@@ -282,37 +431,72 @@
 		};
 		C2F9EB71249AA1B3008EF354 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7E27FDFC1C104FD74ECDB8F /* Pods-MyPayTabs.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 86MGZ7B3XL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MyPayTabs/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-all_load",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.SoufianTest.MyPayTabs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/MyPayTabs-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = (
+					"Pods/**",
+					"\"$(SRCROOT)/Pods/\"/**",
+				);
 			};
 			name = Debug;
 		};
 		C2F9EB72249AA1B3008EF354 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4199FFB9EEBD1BA7321AF2FB /* Pods-MyPayTabs.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 86MGZ7B3XL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MyPayTabs/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-all_load",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.SoufianTest.MyPayTabs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/MyPayTabs-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = (
+					"Pods/**",
+					"\"$(SRCROOT)/Pods/\"/**",
+				);
 			};
 			name = Release;
 		};
